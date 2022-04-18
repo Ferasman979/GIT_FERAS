@@ -74,8 +74,8 @@ class Application:
                    sensor.settemperature(temp)
                    #self.neighbourlist= sensor.getneighbourlst()
                    self.neighboursensors.append(sensor.getneighbourlst())
-                   print(self.neighboursensors)
-                   print(self.listSensors)
+                   #print(self.neighboursensors)
+                   #print(self.listSensors)
         self.convrtToDictionary()           
                 #print(sensor)
                 #print(f"Sensors ID is{sensor.getsensorID()}")
@@ -161,7 +161,3 @@ class Application:
 
 
 
-"""
-graph = {'A': ['B', 15.0, 'C', 12.0], 'B': ['A', 5.0, 'D', 4.0, 'E', 9.0], 'C': ['A', 12.0], 'D': ['B', 4.0, 'F', 1.0], 'E': ['B', 9.0, 'F', 2.0], 'F': ['D', 1.0, 'E', 2.0]}
-
-"""
